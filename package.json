@@ -14,8 +14,7 @@
     "version": "npm run build",
     "postversion": "git push && git push --tags",
     "example": "webpack-dev-server --config ./example/webpack.config.js",
-    "lint": "eslint ./src",
-    "postinstall": "npm run build"
+    "lint": "eslint ./src"
   },
   "repository": {
     "type": "git",
