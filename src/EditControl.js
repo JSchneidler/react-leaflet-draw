@@ -12,6 +12,8 @@ const eventHandlers = {
   onDeleted: 'draw:deleted',
   onDeleteStart: 'draw:deletestart',
   onDeleteStop: 'draw:deletestop',
+  onDrawVertex: 'draw:drawvertex',
+  onEditVertex: 'draw:editvertex',
 };
 
 export default class EditControl extends LayersControl {
